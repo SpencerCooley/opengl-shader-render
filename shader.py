@@ -12,7 +12,7 @@ fragment_shader_source = """
 uniform vec2 resolution;
 uniform float time;
 
-// the uniforms can be passed to this shader program from the cpu 
+// the uniforms can be passed to this shader program from the cpu from the code in main.py
 // could be sensor data, mediapipe, camera, sound, etc.... 
 
 float random(float x) {
